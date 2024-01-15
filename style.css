@@ -1,0 +1,49 @@
+
+#films{
+    list-style: numbers;
+    font-style: italic;
+    background-color: grey;
+    border: solid;
+    border-color: brown;
+
+
+}
+#movie-details{
+   display: flex; 
+   flex-direction: row;
+
+}
+li {
+    border: solid;
+    border-color: antiquewhite;
+    padding: 3px;
+}
+
+#buy-ticket{
+   color:lawngreen;
+   background-color: white;
+   width: 10vh;
+   height: 10vh;
+   border-color: pink;
+
+}
+
+#poster{
+    display:flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vh;
+}
+#title {
+    color:green;
+}
+#title1{
+    color: green;
+}
+#details{
+    flex-direction: column;
+    margin: 70px;
+}
+body{
+    background-color: pink;
+}
